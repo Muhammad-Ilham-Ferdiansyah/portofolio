@@ -1,0 +1,67 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #f2c5fd;
+}
+
+#projects {
+  background-color: #f2c5fd;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.card {
+  width: 200px;
+  text-align: center;
+}
+
+figure {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.typed {
+  font-weight: bold;
+}
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
